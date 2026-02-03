@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using RecursosHumanos.Models;
 using RecursosHumanos.Models.ViewModels.Reclutamiento;
-using ClosedXML.Excel;
+//using ClosedXML.Excel;
 using System.IO;
 
 
@@ -408,6 +408,8 @@ namespace RecursosHumanos.Controllers
 
         #endregion
 
+
+        /*
         #region Export
         [HttpGet]
         public async Task<IActionResult> Export(ReclutamientoIndexVM filtro)
@@ -468,6 +470,6 @@ namespace RecursosHumanos.Controllers
 
 
         #endregion
-
+        */
     }
 }
